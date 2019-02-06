@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D9F1D53A2203605100EAA7D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F1D5392203605100EAA7D5 /* AppDelegate.swift */; };
-		D9F1D53C2203605100EAA7D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F1D53B2203605100EAA7D5 /* ViewController.swift */; };
 		D9F1D53F2203605100EAA7D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F1D53D2203605100EAA7D5 /* Main.storyboard */; };
 		D9F1D5422203605100EAA7D5 /* CollectorApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9F1D5402203605100EAA7D5 /* CollectorApp.xcdatamodeld */; };
 		D9F1D5442203605200EAA7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F1D5432203605200EAA7D5 /* Assets.xcassets */; };
 		D9F1D5472203605200EAA7D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F1D5452203605200EAA7D5 /* LaunchScreen.storyboard */; };
+		D9F1D54F2203DBBF00EAA7D5 /* CollectableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F1D54E2203DBBF00EAA7D5 /* CollectableTableViewController.swift */; };
+		D9F1D5512203DBDB00EAA7D5 /* CreateCollectableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F1D5502203DBDB00EAA7D5 /* CreateCollectableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D9F1D5362203605100EAA7D5 /* CollectorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F1D5392203605100EAA7D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9F1D53B2203605100EAA7D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9F1D53E2203605100EAA7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9F1D5412203605100EAA7D5 /* CollectorApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollectorApp.xcdatamodel; sourceTree = "<group>"; };
 		D9F1D5432203605200EAA7D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9F1D5462203605200EAA7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F1D5482203605200EAA7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F1D54E2203DBBF00EAA7D5 /* CollectableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectableTableViewController.swift; sourceTree = "<group>"; };
+		D9F1D5502203DBDB00EAA7D5 /* CreateCollectableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCollectableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				D9F1D5392203605100EAA7D5 /* AppDelegate.swift */,
-				D9F1D53B2203605100EAA7D5 /* ViewController.swift */,
 				D9F1D53D2203605100EAA7D5 /* Main.storyboard */,
 				D9F1D5432203605200EAA7D5 /* Assets.xcassets */,
 				D9F1D5452203605200EAA7D5 /* LaunchScreen.storyboard */,
 				D9F1D5482203605200EAA7D5 /* Info.plist */,
 				D9F1D5402203605100EAA7D5 /* CollectorApp.xcdatamodeld */,
+				D9F1D54E2203DBBF00EAA7D5 /* CollectableTableViewController.swift */,
+				D9F1D5502203DBDB00EAA7D5 /* CreateCollectableViewController.swift */,
 			);
 			path = CollectorApp;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F1D54F2203DBBF00EAA7D5 /* CollectableTableViewController.swift in Sources */,
+				D9F1D5512203DBDB00EAA7D5 /* CreateCollectableViewController.swift in Sources */,
 				D9F1D5422203605100EAA7D5 /* CollectorApp.xcdatamodeld in Sources */,
-				D9F1D53C2203605100EAA7D5 /* ViewController.swift in Sources */,
 				D9F1D53A2203605100EAA7D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
